@@ -132,6 +132,7 @@ table {
 }
 
 /* MOBILE STYLES START HERE */
+/* Adding font "Montserrat */
 html {
   font-family: 'Montserrat', sans-serif;
   background: #f7f7ff;
@@ -373,7 +374,7 @@ footer {
 }
 
 
-/* DESKTOP STYLES START HERE*/
+/* DESKTOP STYLES START HERE!*/
 
 @media only screen and (min-device-width: 1024px) {
   .scooter {
