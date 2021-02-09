@@ -205,7 +205,7 @@ footer {
 }
 
 #hours {
-  padding: 0.5em;
+  padding: 1em;
   border: none;
   width: 58px;
   margin-right: 10px;
@@ -215,7 +215,7 @@ footer {
 }
 
 #city {
-  padding: 0.5em;
+  padding: 1em;
   border: none;
   width: 200px;
   border-radius: 10px;
@@ -227,7 +227,7 @@ footer {
   background-color: #ff8480;
   border: none;
   border-radius: 10px;
-  width: 18.438rem;
+  width: 20.438rem;
   text-transform: uppercase;
   color: white;
   font-weight: bold;
