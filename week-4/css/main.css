@@ -132,7 +132,6 @@ table {
 }
 
 /* MOBILE STYLES START HERE */
-
 html {
   font-family: 'Montserrat', sans-serif;
   background: #f7f7ff;
@@ -402,15 +401,20 @@ footer {
   }
   footer {
     padding-top: 2em;
+    padding-bottom: 2em;
     position: fixed;
     bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
   }
   .icons {
     display: flex;
-    justify-content: flex-end
+    
   }
   svg {
-    margin-right: 1em;
+    margin-right: 5em;
   }
   .calculate {
     margin: 0;
