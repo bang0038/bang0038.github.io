@@ -75,7 +75,10 @@ h1 {
 }
 
 .form {
-  margin-left: 45px;
+  margin-left: 38px;
+  }
+
+.form-background {
   margin-bottom: 2em;
   background: white;
   padding: 24px;
@@ -254,12 +257,55 @@ footer {
   justify-content: center;
 }
 
+
+
 /* TABLET */
 
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) {
 
+    .form-background {
+      width: 40rem;
+    }
+
+    .scooter {
+      width: 26.29rem;
+    }
   
+    .calculate {
+      margin-right: 10px;
+      margin-top: 1px;
+      margin-bottom: 1px;
+      padding: 7px;
   }
 
+  .icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  svg {
+    margin-right: 2.5em;
+  }
+
+
+  }
+
+  /* DESKTOP */
+  @media only screen and (min-device-width: 1024px) {
+
+  
+
+  .form-background{
+    width: 535px;
+    margin-left: 79em;
+    margin-bottom: 5em;
+  }
+
+  .scooter {
+    display: none;
+  }
+  
+ 
+}
