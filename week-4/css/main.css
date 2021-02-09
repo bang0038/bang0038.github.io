@@ -440,7 +440,7 @@ mockup. Also flexing the footer to display the form on the right and icons on th
   .scooter {
     display: none;
   }
-  */ .form-background {
+ .form-background {
     width: 535px;
     margin-right: 5em;
   }
