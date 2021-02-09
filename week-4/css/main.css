@@ -1,46 +1,137 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
+/* MOBILE STYLES START HERE */
 
 html {
   font-family: 'Montserrat', sans-serif;
@@ -76,7 +167,7 @@ h1 {
 
 .form {
   margin-left: 38px;
-  }
+}
 
 .form-background {
   margin-bottom: 2em;
@@ -258,107 +349,85 @@ footer {
 }
 
 
+/* TABLET STYLES START HERE */
 
-/* TABLET */
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
-
-    .form-background {
-      width: 40rem;
-    }
-
-    .scooter {
-      width: 26.29rem;
-    }
-  
-    .calculate {
-      margin-right: 10px;
-      margin-top: 1px;
-      margin-bottom: 1px;
-      padding: 7px;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .form-background {
+    width: 40rem;
   }
-
+  .scooter {
+    width: 26.29rem;
+  }
+  .calculate {
+    margin-right: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 7px;
+  }
   .icons {
     display: flex;
     justify-content: center;
   }
-  
   svg {
     margin-right: 2.5em;
   }
+}
 
 
-  }
+/* DESKTOP STYLES START HERE*/
 
-  /* DESKTOP */
-  @media only screen and (min-device-width: 1024px) {
-
+@media only screen and (min-device-width: 1024px) {
   .scooter {
     display: none;
   }
-
   .form-background {
     width: 535px;
     margin-right: 5em;
   }
-  
   .center {
     margin-left: 5em;
     margin-top: 1em;
   }
-
   .logo-pic {
     margin-left: 2em;
   }
-  
-  main{
+  main {
     display: grid;
-    grid-template-areas: 
-    "main side aside";
-   grid-template-columns: repeat(3, 1fr); 
+    grid-template-areas: "main side aside";
+    grid-template-columns: repeat(3, 1fr);
   }
-
-   main {
+  main {
     background: url(../images/scooter.svg) no-repeat center;
-        background-size: 820px;
-   }
-
-   footer {
-     padding-top: 2em;
-   }
-   .icons {
-     display: flex;
+    background-size: 820px;
+  }
+  footer {
+    padding-top: 2em;
+    position: fixed;
+    bottom: 0px;
+  }
+  .icons {
+    display: flex;
     justify-content: flex-end
-   }
-
-   svg {
-     margin-right: 1em;
-   }
-
-   .calculate {
-     margin: 0;
-     margin-left: 1em;
-     width: 200px;
-   }
- 
-.form2 {
-  justify-content: start;
-  margin-left: 48px;
-  margin-top: 0.5em;
-
-}
-
-.earn {
-  padding-top: 10px;
-  padding-left: 0.75em;
-  padding-bottom: 0em;
-}
-
-.howmany {
-  padding: 10px;
-}
-
-
+  }
+  svg {
+    margin-right: 1em;
+  }
+  .calculate {
+    margin: 0;
+    margin-left: 1em;
+    width: 200px;
+  }
+  .form2 {
+    justify-content: start;
+    margin-left: 48px;
+    margin-top: 0.5em;
+  }
+  .earn {
+    padding-top: 10px;
+    padding-left: 0.75em;
+    padding-bottom: 0em;
+  }
+  .howmany {
+    padding: 10px;
+  }
 }
