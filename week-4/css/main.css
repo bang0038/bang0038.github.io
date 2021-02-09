@@ -295,17 +295,70 @@ footer {
   /* DESKTOP */
   @media only screen and (min-device-width: 1024px) {
 
-  
-
-  .form-background{
-    width: 535px;
-    margin-left: 79em;
-    margin-bottom: 5em;
-  }
-
   .scooter {
     display: none;
   }
+
+  .form-background {
+    width: 535px;
+    margin-right: 5em;
+  }
   
+  .center {
+    margin-left: 5em;
+    margin-top: 1em;
+  }
+
+  .logo-pic {
+    margin-left: 2em;
+  }
+  
+  main{
+    display: grid;
+    grid-template-areas: 
+    "main side aside";
+   grid-template-columns: repeat(3, 1fr); 
+  }
+
+   main {
+    background: url(../images/scooter.svg) no-repeat center;
+        background-size: 820px;
+   }
+
+   footer {
+     padding-top: 2em;
+   }
+   .icons {
+     display: flex;
+    justify-content: flex-end
+   }
+
+   svg {
+     margin-right: 1em;
+   }
+
+   .calculate {
+     margin: 0;
+     margin-left: 1em;
+     width: 200px;
+   }
  
+.form2 {
+  justify-content: start;
+  margin-left: 48px;
+  margin-top: 0.5em;
+
+}
+
+.earn {
+  padding-top: 10px;
+  padding-left: 0.75em;
+  padding-bottom: 0em;
+}
+
+.howmany {
+  padding: 10px;
+}
+
+
 }
