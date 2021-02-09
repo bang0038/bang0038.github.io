@@ -131,16 +131,26 @@ table {
   border-spacing: 0;
 }
 
+
 /* MOBILE STYLES START HERE */
-/* Adding font "Montserrat */
+
+
+/* Adding font "Montserrat so that the font matches that of the mockup*/
+
 html {
   font-family: 'Montserrat', sans-serif;
   background: #f7f7ff;
 }
 
+
+/* Adding width of 114.73 to logo to match the mockups width */
+
 .logo-pic {
   width: 114.73px
 }
+
+
+/* Changing font size to 60px to match the h1 of the mockup, changing color and adding font weight */
 
 h1 {
   font-size: 60px;
@@ -148,10 +158,16 @@ h1 {
   color: #333131;
 }
 
+
+/* Changing font size and adding padding to match font size and spacing of mockup */
+
 .start-today {
   font-size: 24px;
   padding-top: 24px;
 }
+
+
+/* Changing width of background image to match the image in the mockup for mobile style */
 
 .scooter {
   margin-bottom: 16px;
@@ -161,13 +177,22 @@ h1 {
   margin-right: auto;
 }
 
+
+/* Adding a margin to the container to match the mockup and contain all content within to the same margin */
+
 .container {
   margin: 2.5em;
 }
 
+
+/* Adding a margin of 38px to form to match that of the mockup from edge to footers side */
+
 .form {
   margin-left: 38px;
 }
+
+
+/* Adding margin bottom to footer, changing background color to white, adding an overall padding of 24px, border radius of 25px and soft box shadow to match the mockup */
 
 .form-background {
   margin-bottom: 2em;
@@ -179,9 +204,17 @@ h1 {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
+
+/* Adding a little bit of padding to the left of h4 to help it align */
+
 h4 {
   padding-left: 0.6em;
 }
+
+
+/* Adding width of 100%, padding to text box, background color (extracted from Adobe themes as it was not provided in mockup) a border radius of 5px, removing
+of border and text color to grey to match the mockup to the #firstname, #lastname, #youremail and #number IDs to match mockup. IDs were used instead of class
+to have a higher specificity and to differentiate from the padding of the classes */
 
 #firstname {
   width: 100%;
@@ -243,6 +276,9 @@ h4 {
   padding: 0.5em;
 }
 
+
+/* Changing background color to button and adjusting size to match the mockup */
+
 .drive {
   background: #57eeab;
   width: 100%;
@@ -256,12 +292,18 @@ h4 {
   color: #333131;
 }
 
+
+/* Changing font size of the apply class, as well as adding font weight and padding to match the mockup */
+
 .apply {
   font-size: 2em;
   font-weight: bold;
   padding-bottom: 0.2em;
   padding-left: 10px;
 }
+
+
+/* Changing styles of agree, checkbox and link to match that of the provided mockup */
 
 .agree {
   display: inline;
@@ -280,10 +322,16 @@ a {
   margin-top: 19px;
 }
 
+
+/* Changing background of footer to yellow to match that of the mockup and making the width 100% to span across the page for all screen sizes */
+
 footer {
   background: #fffd8c;
   width: 100%;
 }
+
+
+/* Changing styles of .earn, .howmany, #hours, #city and .calcualte to match the form of the mockup */
 
 .earn {
   font-weight: bold;
@@ -330,6 +378,9 @@ footer {
   font-size: 24px;
 }
 
+
+/* Flexing the icons to be justified in the center of the space and to distribute the space around to match the mockup */
+
 .icons {
   display: flex;
   justify-content: center;
@@ -350,6 +401,10 @@ footer {
 
 
 /* TABLET STYLES START HERE */
+
+
+/* Changing width of the form to match the tablet mockup size at 40rem (converted from pixels), scooter at 26.29rem (converted from pixels) and flexing icons
+to display in the center, as well as adding right margin to incons so they display the same as the mockup */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .form-background {
@@ -376,11 +431,16 @@ footer {
 
 /* DESKTOP STYLES START HERE!*/
 
+
+/* Adding display none to the background image so I can re-display it behind all the content as an actual background image, changing the
+width of the form to 535px to match the mockup and adding a grid to the main section to move the text and form to the same positions as provided in the 
+mockup. Also flexing the footer to display the form on the right and icons on the left */
+
 @media only screen and (min-device-width: 1024px) {
   .scooter {
     display: none;
   }
-  .form-background {
+  */ .form-background {
     width: 535px;
     margin-right: 5em;
   }
@@ -408,11 +468,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
   }
   .icons {
     display: flex;
-    
   }
   svg {
     margin-right: 5em;
