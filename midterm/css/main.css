@@ -109,7 +109,7 @@ font-size: 15px;
 }
 
 .logo-pic {
-  display: none;
+  width: 75px;
 }
 
 
@@ -166,7 +166,7 @@ font-size: 15px;
   }
 
   .banner {
-    width: 375px;
+    width: 100%;
     height: auto;
   }
   .quiz {
@@ -248,14 +248,24 @@ font-size: 15px;
   }
 
   .cards p {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   /* CONTACT */
 
   .find {
     margin-bottom: 1em;
+  }
+
+  .find h1 {
     font-size: 30px;
+  }
+  .find h3 {
+    font-size: 20px;
+  }
+
+  .find h4 {
+    font-size: 15px;
   }
 
   .stores {
@@ -273,7 +283,7 @@ font-size: 15px;
 
 
   .icons{
-    width: 25px;
+    width: 30px;
     display: flex;
   }
 
@@ -285,6 +295,9 @@ font-size: 15px;
     background-color: #DE9E95;
     padding: 0.5em;
     color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 
 
