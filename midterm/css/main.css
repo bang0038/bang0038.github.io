@@ -78,7 +78,9 @@ p {
 /* Mobile Styles Start Here */
 
 
-
+.logo-pic-desktop {
+  display: none;
+}
 .main-nav {
 background-color: #DE9E95;
 padding: 1em;
@@ -110,14 +112,15 @@ font-size: 15px;
 
 .logo-pic {
   width: 75px;
+  height: auto;
 }
 
 
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding-right: 75px;
-    padding-left: 75px;
+    padding-right: 45px;
+    padding-left: 45px;
     padding-top: 27px;
     
   }
@@ -163,6 +166,7 @@ font-size: 15px;
     font-size: 15px;
     box-shadow: 0px 7px 15px -9px rgba(172,172,172,1);
     margin-top: 1em;
+    display: block;
   }
 
   .banner {
@@ -180,6 +184,7 @@ font-size: 15px;
     font-size: 15px;
     box-shadow: 0px 7px 15px -9px rgba(172,172,172,1);
     margin-top: 1em;
+    display: block;
   }
 
   .abc {
@@ -187,7 +192,7 @@ font-size: 15px;
   }
 
   .charcuterie {
-    width: 226px;
+    width: 100%;
     height: auto;
     margin-top: 1em;
   }
@@ -203,10 +208,11 @@ font-size: 15px;
     font-size: 15px;
     box-shadow: 0px 7px 15px -9px rgba(172,172,172,1);
     margin-top: 1em;
+    display: block;
   }
 
   .flavour {
-    margin-bottom: 3em;
+    margin-bottom: 5em;
   }
 
   .trending {
@@ -283,7 +289,7 @@ font-size: 15px;
 
 
   .icons{
-    width: 30px;
+    width: 45px;
     display: flex;
   }
 
@@ -293,11 +299,226 @@ font-size: 15px;
 
   footer {
     background-color: #DE9E95;
-    padding: 0.5em;
+    padding: 1em;
     color: white;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    margin-top: 2.5em;
   }
 
 
+  /* TABLET STYLES START HERE */
+
+  @media only screen and (min-width: 481px) and (max-width:768px) {
+  
+  h1 {
+    font-size: 50px;
+    text-transform:uppercase;
+    font-weight: lighter;
+    padding: 5px;
+  }
+
+  h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  h4 {
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+
+  
+
+  p.legal {
+    font-size: 15px;
+  }
+  
+
+  .shop-now {
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .banner {
+    width: 100%;
+    height: auto;
+  }
+  .quiz {
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .abc {
+    display: none;
+  }
+
+  .follow {
+     width: 200px;
+    font-size: 20px;
+  }
+
+  .main-nav {
+    font-size: 25px;
+    }
+
+    .trending {
+      display: block;
+    }
+
+    .buy {
+      width: 100px;
+      font-size: 20px;
+    }
+  
+    .cards h5 {
+      font-size: 25px;
+    }
+  
+    .cards p {
+      font-size: 30px;
+    }
+
+    .stores {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .map{
+      width: 50%;
+      height: auto;
+    }
+
+    .find-us h3 {
+      font-size: 35px;
+    }
+
+    .find-us h4 {
+      font-size: 20px;
+    }
+  }
+
+  /* DESKTOP STYLES START HERE */
+  @media only screen and (min-width: 768px) {
+    header {
+      display: flex;
+    }
+
+   .nav-list {
+     display: flex;
+     font-size: 20px;
+   }
+
+   .main-nav {
+    background-color: transparent;
+    
+    }
+    
+    .nav-list li {
+      color: black;
+    }
+    
+    .nav-list a,
+    .nav-list a:link,
+    .nav-list a:visited {
+      color: black;
+    }
+
+    
+    
+    .logo-pic {
+      display: none;
+    }
+    .logo-pic-desktop {
+      display: block;
+      max-width: 150px;
+    }
+    h1 {
+      font-size: 75px;
+  
+    }
+  
+    h2 {
+      font-size: 35px;
+    }
+  
+    h4 {
+      font-size: 30px;
+    }
+  
+  
+    p.legal {
+      font-size: 15px;
+    }
+
+    .shop-now {
+      width: 300px;
+      font-size: 25px;
+    }
+  
+    .banner {
+      display: none;
+    }
+    .quiz {
+      width: 300px;
+      font-size: 25px;
+    }
+    
+  
+    .abc {
+     display: inline-block;
+     width: 300px;
+     height: auto;
+    }
+  
+    .charcuterie {
+      width: 100%;
+      height: auto;
+      margin-top: 1em;
+    }
+  
+    .follow {
+      width: 300px;
+      font-size: 25px;
+    }
+
+    .hello-spring {
+      margin-top: 10em;
+      margin-bottom: 55em;
+      margin-right: 20em;
+    }
+    .flavour {
+      margin-top: 2em;
+      margin-bottom: 10em;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .trending {
+      margin-top: 10em;
+      margin-bottom: 10em;
+      display: flex;
+      flex-direction: row-reverse;
+
+    }
+
+    .charcuterie {
+      width: 700px;
+      height: auto;
+      margin-right: 1em;
+    }
+    
+    html {
+    background: url(../images/homebackground.svg) no-repeat center;
+    background-size: cover;
+    }
+    
+  }
+    
+  
+    
