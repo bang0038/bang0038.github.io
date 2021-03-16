@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 5.063rem;
+}
+
+h2 {
+  font-size: 3.375rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 1em 0;
+}
+
+/* Mobile Styles Start Here */
+
+
+
+.main-nav {
+background-color: #DE9E95;
+padding: 1em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: 15px;
+}
+
+.nav-list li {
+  text-align: center;
+  color: white;
+}
+
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+  font-weight: bold;
+}
+
+.logo-pic {
+  display: none;
+}
+
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-top: 27px;
+    
+  }
+
+  .hello-spring {
+  align-items: center;
+  }
+    
+
+  h1 {
+    font-size: 30px;
+    text-transform:uppercase;
+    font-weight: lighter;
+    padding: 5px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  h4 {
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+
+  .legal {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .shop-now {
+    background-color: #DE9E95;
+    border: none;
+    padding: 0.5em;
+    border-radius: 15px;
+    width: 150px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 0px 7px 15px -9px rgba(172,172,172,1);
+    margin-top: 1em;
+  }
+
+  .banner {
+    width: 375px;
+    height: auto;
+  }
+  .quiz {
+    background-color: #DE9E95;
+    border: none;
+    padding: 0.5em;
+    border-radius: 15px;
+    width: 150px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 0px 7px 15px -9px rgba(172,172,172,1);
+    margin-top: 1em;
+  }
+
+  .abc {
+    display: none;
+  }
+
+  .charcuterie {
+    width: 226px;
+    height: auto;
+    margin-top: 1em;
+  }
+
+  .follow {
+    background-color: #DE9E95;
+    border: none;
+    padding: 0.5em;
+    border-radius: 15px;
+    width: 150px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 0px 7px 15px -9px rgba(172,172,172,1);
+    margin-top: 1em;
+  }
+
+  .flavour {
+    margin-bottom: 3em;
+  }
+
+  .trending {
+    margin-bottom: 3em;
+  }
+
+  /* SHOP */
+
+  .card-pic {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 7px 15px -9px rgba(172,172,172,1);
+  }
+
+  .buy {
+    background-color: #DE9E95;
+    border: none;
+    padding: 0.5em;
+    border-radius: 15px;
+    width: 80px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 0px 7px 15px -9px rgba(172,172,172,1);
+    margin-top: 0.2em;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+  }
+
+  .cards h5 {
+    font-size: 15px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .cards p {
+    font-size: 30px;
+  }
+
+  /* CONTACT */
+
+  .find {
+    margin-bottom: 1em;
+    font-size: 30px;
+  }
+
+  .stores {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .find-us {
+    padding-top: 0.5em;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+
+  .icons{
+    width: 25px;
+    display: flex;
+  }
+
+  .svg {
+    padding-right: 1em;
+  }
+
+  footer {
+    background-color: #DE9E95;
+    padding: 0.5em;
+    color: white;
+  }
+
+
