@@ -23,6 +23,7 @@ h4,
 h5,
 h6 {
     text-decoration: underline;
+    
 }
 
 /* Selecting child elements */
@@ -161,10 +162,4 @@ footer {
 footer.site-footer{
     background-color: teal;
 }
-
-/* 0102 */
-#tow dl dt {}
-
-/* 0112 */
-#tow dl dt.first {}
 
