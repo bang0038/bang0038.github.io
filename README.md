@@ -52,9 +52,6 @@ ALL IMAGES/PHOTOGRAPHY ARE MY OWN EXCEPT FOR:
 1. BRANDING IMAGE: https://stock.adobe.com/ca/images/mockup-of-liquid-bottle-labels/234840167
 2. DESIGN IMAGE: https://stock.adobe.com/ca/images/set-of-digital-devices-screen-mockup/236243840
 3. SOCIAL ICONS: https://simpleicons.org/
-4. FONTS: <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
-5. BOOTSTRAP:<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-6. BOOTSTRAP SCRIPT: <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+4. FONTS: https://fonts.googleapis.com/css2?family=Belleza&display=swap
+
 
