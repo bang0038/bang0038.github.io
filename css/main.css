@@ -1,89 +1,136 @@
 body {
-    font-family: 'Belleza', sans-serif;
-}
-#navbar {
-    background-color: #B4B0A5;
-    padding-left: 1em;
+	font-family: 'Belleza', sans-serif;
 }
 
-.banner {
-    width: 100%;
-    height: auto;
+.navbar {
+	background-color: #B4B0A5;
+	padding-left: 1em;
 }
 
-
-
-#savannah{
-    width: 100%;
-    height: auto;
+#savannah {
+	width: 100%;
+	height: auto;
 }
 
 #branding {
-    width: 100%;
+	width: 100%;
 }
 
-.card{
-    border: none;
+.card {
+	border: none;
 }
 
 #button {
-    background-color: #B4B0A5;
-    border: none;
-    border-radius: 5%;
-    text-transform: uppercase;
+	background-color: #B4B0A5;
+	border: none;
+	border-radius: 5%;
+	text-transform: uppercase;
 }
 
 #button1 {
-    background-color: #B4B0A5;
-    border: none;
-    border-radius: 5%;
-    text-transform: uppercase;
+	background-color: #B4B0A5;
+	border: none;
+	border-radius: 5%;
+	text-transform: uppercase;
 }
 
-
 #button2 {
-    background-color: white;
-    border: none;
-    border-radius: 5%;
-    text-transform: uppercase;
-    color: #B4B0A5;
+	background-color: white;
+	border: none;
+	border-radius: 5%;
+	text-transform: uppercase;
+	color: #B4B0A5;
 }
 
 #button3 {
-    background-color: #B4B0A5;
-    border: none;
-    border-radius: 5%;
-    text-transform: uppercase;
+	background-color: #B4B0A5;
+	border: none;
+	border-radius: 5%;
+	text-transform: uppercase;
 }
 
-form {
-    background-color: #B4B0A5;
-    padding: 1em;
-    color: white;
-    border-radius: 0.3%;
+#button7 {
+	background-color: white;
+	border: none;
+	border-radius: 5%;
+}
+
+#form1 {
+	background-color: #B4B0A5;
+	padding: 1em;
+	color: white;
+	border-radius: 0.3%;
 }
 
 footer {
-    background-color: #B4B0A5;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+	background-color: #B4B0A5;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 #exampleFormControlTextarea1 {
-    resize: none;
+	resize: none;
 }
 
 p {
-    line-height: 2em;
+	line-height: 2em;
 }
 
 .latest {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .latest1 {
-    width: 50%;
-    height: auto;
+	width: 50%;
+	height: auto;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.latest:hover {
+	transform: scale(0.9);
+	transition: 0.3s;
+}
+
+#recent:hover {
+	transform: scale(0.9);
+	transition: 0.3s;
+}
+
+#recent1:hover {
+	transform: scale(0.9);
+	transition: 0.3s;
+}
+
+#recent2:hover {
+	transform: scale(0.9);
+	transition: 0.3s;
+}
+
+button:hover {
+	transition: 0.3s;
+	opacity: 0.1;
+}
+
+a:hover {
+	transition: 0.3s;
+	opacity: 0.1;
+}
+
+@keyframes jump {
+	50% {
+		transform: translate(0, -15px);
+	}
+}
+
+#email {
+	animation-name: jump;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
 }

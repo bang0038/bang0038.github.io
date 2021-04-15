@@ -1,214 +1,262 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+      -->
     <title>Savannah Mina</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar" id="navbar">
-            <a class="navbar-brand" href="#">
-                <img src="images/sav.png" alt="facebook" width="250">
-                
-            </a>
-            <a class="navbar-brand" href="#">
-               
-              </a>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sav Designs & Co.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#web">Web Design</a></li>
+                  <li><a class="dropdown-item" href="#branding1">Branding</a></li>
+                  <li><a class="dropdown-item" href="#photography">Photography</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-light" type="submit">Search</button>
-              </form>
-        </nav>
+              <input class="form-control me-2" type="search" placeholder="Whatcha lookin' for?" aria-label="Search">
+              <button class="btn" type="submit" id="button7">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
-
-
-
-
     <div class="container">
-
-
-
-
-        <div class="row mt-5">
-            <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
-                <img class="img-fluid latest" src="images/1.jpg" alt="1">
-            </div>
-            <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
-                <img class="latest" src="images/5.jpg" alt="1">
-            </div>
-            <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
-                <img class="latest" src="images/3.jpg" alt="1">
-            </div>
-            <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
-                <img class="latest" src="images/4.jpg" alt="1">
-            </div>
-            <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
-                <img class="latest" src="images/6.jpg" alt="1">
-            </div>
-            <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
-                <img class="latest" src="images/2.jpg" alt="1">
-            </div>
-
+      <h1 class="text-center mt-5 display-2">Welcome to Sav Designs & Co.</h1>
+      <hr>
+      <div class="row" id="hi">
+        <div class="mt-lg-5 mb-lg-5 col-lg-6">
+          <img class="img-fluid mt-2" src="images/Savannah.jpg" id="savannah" alt="savannah" />
         </div>
-        <hr>
-        <h1 class="text-center mt-5">Who is Behind the Design?</h1>
-
-        <div class="row" id="hi">
-            <div class="mt-lg-5 mb-lg-5 col-lg-6">
-                <img class="img-responsive mt-2" src="images/Savannah.jpg" id="savannah" alt="savannah" />
-            </div>
-            <div class="mt-5 mb-lg-5 col-lg-6">
-                <h2>Hi! I'm Savannah.
-                </h2>
-                <p class="fs-5">I am a photographer & web designer.</p>
-
-                <p class="fs-5">If you know me, you know that I love all things design. Web design, interior design, you
-                    name it!</p>
-
-                <p class="fs-5">A little about me: I use rosemary & thyme in almost every recipe and I am obsessed with
-                    travelling
-                    and exploring this wonderful world. When I'm not working or in class, you can find me in the
-                    kitchen, sipping wine and cooking up a storm with my fiancé or in my pajamas watching Disney movies
-                    with my daughter.</p>
-            </div>
-
+        <div class="mt-5 mb-lg-5 col-lg-6">
+          <h2>Hi! I'm Savannah.
+          </h2>
+          <p class="fs-4">I am a photographer & web designer.</p>
+          <p class="fs-5">If you know me, you know that I love all things design. Web design, interior design, you
+            name it!
+          </p>
+          <p class="fs-5">A little about me: I use rosemary & thyme in almost every recipe and I am obsessed with
+            travelling
+            and exploring this wonderful world. When I'm not working or in class, you can find me in the
+            kitchen, sipping wine and cooking up a storm with my fiancé or in my pajamas watching Disney movies
+            with my daughter.
+          </p>
         </div>
-
-        <hr>
-
-
-
-        <h1 class="text-center mb-5 mt-5">What Can I Do for You?</h1>
-
-
-
+      </div>
+      <hr>
+      <section id="services">
+        <h2 class="display-5 text-center mb-5 mt-5">What Can I Do for You?</h2>
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="card mb-5">
-                    <img src="images/branding.jpeg" class="card-img-top" alt="branding" id="branding">
-                    <div class="card-body">
-                        <h1 class="card-title">Branding</h1>
-                        <p class="card-text">Let me help you take your business to the next level through curated
-                            branding that is geared towards your target audience. My branding services are tailored to
-                            all your specific needs no matter what they might be.</p>
-                        <a href="#" class="btn btn-primary" id="button">Book</a>
-                    </div>
-                </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="card mb-5">
+              <img src="images/branding.jpeg" class="img-fluid card-img-top" alt="branding" id="branding">
+              <div class="card-body">
+                <h2 class="card-title">Branding</h2>
+                <p class="card-text">Let me help you take your business to the next level through curated
+                  branding that is geared towards your target audience. My branding services are tailored to
+                  all your specific needs no matter what they might be.
+                </p>
+                <a href="#contact" class="btn btn-primary" id="button">Book</a>
+              </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="card mb-lg-5">
-                    <img src="images/design.jpeg" class="card-img-top" alt="design" id="design">
-                    <div class="card-body">
-                        <h1 class="card-title">Design</h1>
-                        <p class="card-text">I create & curate designs with you, not for you. Whether you need a logo,
-                            website facelift or a website built from scratch, I aim to create designs that are
-                            not only beautiful but functional too.</p>
-                        <a href="#" class="btn btn-primary" id="button1">Book</a>
-                    </div>
-                </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="card mb-lg-5">
+              <img src="images/design.jpeg" class="img-fluid card-img-top" alt="design" id="design">
+              <div class="card-body">
+                <h2 class="card-title">Design</h2>
+                <p class="card-text">I create & curate designs with you, not for you. Whether you need a logo,
+                  website facelift or a website built from scratch, I aim to create designs that are
+                  not only beautiful but functional too.
+                </p>
+                <a href="#contact" class="btn btn-primary" id="button1">Book</a>
+              </div>
             </div>
+          </div>
         </div>
-
-        <hr>
-        <h1 class="text-center mt-5">Recent Web Work</h1>
+      </section>
+      <hr>
+      <section id="web">
+        <h2 class="display-5 text-center mt-5">Recent Web Work</h2>
         <h3 class="text-center mb-5">Take a look at my most recent work for some inspiration.</h3>
-
-
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="card">
-                    <img src="images/ava.gif" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-text">Design Using a CMS</h2>
-                        <p class="card-text">Website design for Avabeauty.ca. A local beauty business that sells
-                            cosmetic strip lashes. The website was built using a CMS as per request by the client.</p>
-                    </div>
-                </div>
-
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card">
+              <img src="images/ava.gif" class="img-fluid card-img-top" alt="..." id="recent">
+              <div class="card-body">
+                <h2 class="card-text">Design Using a CMS</h2>
+                <p class="card-text">Website design for Avabeauty.ca. A local beauty business that sells
+                  cosmetic strip lashes. The website was built using a CMS as per request by the client. All
+                  design & photography done by me.
+                </p>
+              </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="card">
-                    <img src="images/wild.gif" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-text">Website Re-Design</h2>
-                        <p class="card-text">Website facelift for OfWildAndWander.ca. A local photographer who
-                            specializes in couples & weddings in the Ottawa Valley. The website was given a complete
-                            facelift and fresh, new look.</p>
-                    </div>
-                </div>
-
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card">
+              <img src="images/wild.gif" class="img-fluid card-img-top" alt="webwork" id="recent1">
+              <div class="card-body">
+                <h2 class="card-text">Website Re-Design</h2>
+                <p class="card-text">Website facelift for OfWildAndWander.ca. A local photographer who
+                  specializes in couples & weddings in the Ottawa Valley. The website was given a complete
+                  facelift and fresh, new look.
+                </p>
+              </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="card">
-                    <img src="images/hello.gif" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-text">Full Website Build</h2>
-                        <p class="card-text">Full website build from start to finish using html & css. The prototype is
-                            for a wine company who is about to launch their new signature spring wine.</p>
-                    </div>
-                </div>
-
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card">
+              <img src="images/hello.gif" class="img-fluid card-img-top" alt="webwork" id="recent2">
+              <div class="card-body">
+                <h2 class="card-text">Full Website Build</h2>
+                <p class="card-text">Full website build from start to finish using html & css. The prototype is
+                  for a wine company who is about to launch their new signature spring wine.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
-
-
+      </section>
+      <section id="branding1">
         <hr class="mt-5">
-
-        <h1 class="text-center mt-5">Like What You See?</h1>
+        <h2 class="display-5 text-center mt-5">Recent Branding Work</h2>
+        <h3 class="text-center mb-5">Your brand could look like this too.</h3>
+        <div class="row mt-5">
+          <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid latest" src="images/1.jpg" alt="logo">
+          </div>
+          <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid latest" src="images/5.jpg" alt="logo">
+          </div>
+          <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid latest" src="images/3.jpg" alt="logo">
+          </div>
+          <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid latest" src="images/4.jpg" alt="logo">
+          </div>
+          <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid latest" src="images/6.jpg" alt="logo">
+          </div>
+          <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid latest" src="images/2.jpg" alt="logo">
+          </div>
+        </div>
+      </section>
+      <section id="photography">
+        <hr class="mt-5">
+        <h2 class="display-5 text-center mt-5">Recent Photography Work</h2>
+        <h3 class="text-center">Whether it be interior design, branding or headshots, my camera & I have got you
+          covered.
+        </h3>
+        <p class="text-center fs-5"> Take a look at my most recent interior design shoot for @ByFabiolaDesign.</p>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/0D6A4015.JPG" class="img-fluid d-block w-100" alt="design">
+            </div>
+            <div class="carousel-item">
+              <img src="images/0D6A4037.JPG" class="img-fluid d-block w-100" alt="design">
+            </div>
+            <div class="carousel-item">
+              <img src="images/0D6A3980.JPG" class="img-fluid d-block w-100" alt="design">
+            </div>
+            <div class="carousel-item">
+              <img src="images/0D6A4065.JPG" class="img-fluid d-block w-100" alt="design">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section id="contact">
+        <hr class="mt-5">
+        <h2 class="display-5 text-center mt-5">Like What You See?</h2>
         <h2 class="text-center">Let's Connect!</h2>
+        <img class="img-fluid center-block" width="150" src="images/email.png" alt="email" id="email">
         <p class="text-center fs-5"> Leave your name and e-mail below and specify the type of service that
-            you would like to book. Don't leave out any details. Tell me all about your business goals and project
-            ambitions!</p>
-        <form class="mb-5">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput2">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1">
-            </div>
-
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">I'm ready to take my business to the next
-                    level!</label>
-            </div>
-            <button type="submit" class="btn btn-primary" id="button2">Send</button>
+          you would like to book. Don't leave out any details. Tell me all about your business goals and project
+          ambitions!
+        </p>
+        <form class="mb-5" id="form1">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput2">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I'm ready to take my business to the next
+            level!</label>
+          </div>
+          <button type="submit" class="btn btn-primary" id="button2">Send</button>
         </form>
-
-
-
-
+      </section>
     </div>
     <footer>
-        <div class="row">
-            <div class="col">
-                <a>
-                    <img src="images/facebook.svg" alt="facebook" width="30" height="24">
-                    <img src="images/instagram.svg" alt="instagram" width="30" height="24">
-                    <img src="images/twitter.svg" alt="twitter" width="30" height="24">
-                </a>
-            </div>
-            <div class="col">
-                <p class="float-sm-end">&copy; Copyright 2021 | Savannah Mina Designs</p>
-            </div>
+      <div class="row">
+        <div class="col">
+          <a>
+          <img src="images/facebook.svg" alt="facebook" width="30" height="24">
+          <img src="images/instagram.svg" alt="instagram" width="30" height="24">
+          <img src="images/twitter.svg" alt="twitter" width="30" height="24">
+          </a>
         </div>
+        <div class="col">
+          <p class="float-sm-end">&copy; Copyright 2021 | Savannah Mina Designs</p>
+        </div>
+      </div>
     </footer>
-
-</body>
+  </body>
