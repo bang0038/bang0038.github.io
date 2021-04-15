@@ -1,25 +1,24 @@
+/* Changing font for the body of the page */
 body {
 	font-family: 'Belleza', sans-serif;
 }
 
+/* Styling the navbar */
 .navbar {
 	background-color: #B4B0A5;
 	padding-left: 1em;
 }
-
+/* Ensuring image is responsive */
 #savannah {
 	width: 100%;
 	height: auto;
 }
 
-#branding {
-	width: 100%;
-}
-
+/* Removing borders from cards */
 .card {
 	border: none;
 }
-
+/* Styling buttons */
 #button {
 	background-color: #B4B0A5;
 	border: none;
@@ -54,29 +53,29 @@ body {
 	border: none;
 	border-radius: 5%;
 }
-
+/* Styling forms */
 #form1 {
 	background-color: #B4B0A5;
 	padding: 1em;
 	color: white;
 	border-radius: 0.3%;
 }
-
+/* Styling footer */
 footer {
 	background-color: #B4B0A5;
 	padding-top: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
 }
-
+/* Getting rid of textarea resizing */
 #exampleFormControlTextarea1 {
 	resize: none;
 }
-
+/* Giving the paragraphs some line height (double) */
 p {
 	line-height: 2em;
 }
-
+/* Making imgs 100% width and auto height */
 .latest {
 	width: 100%;
 	height: auto;
@@ -87,12 +86,13 @@ p {
 	height: auto;
 }
 
+/* Any class with .center-block will display in the center of the page */
 .center-block {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
+/* Adding hover effects */
 .latest:hover {
 	transform: scale(0.9);
 	transition: 0.3s;
@@ -122,7 +122,7 @@ a:hover {
 	transition: 0.3s;
 	opacity: 0.1;
 }
-
+/* Transformations */
 @keyframes jump {
 	50% {
 		transform: translate(0, -15px);
