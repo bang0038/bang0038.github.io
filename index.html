@@ -23,6 +23,8 @@
   </head>
   <body>
     <header>
+      <!-- NAVIGATION -->
+      <!-- This is the navigation section. Here we will use a default bootstrap navbar which we will customize later using css. The navbar is full functional and responsive. All works in the navbar work and will bring you to the assigned section on the page. This was accomplished by adding section id's to the sections/links. A drop down menu was added to save space. -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Sav Designs & Co.</a>
@@ -37,6 +39,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#services">Services</a>
               </li>
+              <!-- Dropdown to conserve space in the navbar -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Portfolio
@@ -52,6 +55,7 @@
               </li>
             </ul>
             <form class="d-flex">
+                <!-- Whatcha looking for? I thought that was fun. -->
               <input class="form-control me-2" type="search" placeholder="Whatcha lookin' for?" aria-label="Search">
               <button class="btn" type="submit" id="button7">Search</button>
             </form>
@@ -59,9 +63,13 @@
         </div>
       </nav>
     </header>
+    <!-- MAIN CONTAINER -->
+    <!-- This is the main container. Bootstrap will automatically scale everything to fit within this container so it looks beautiful and seamless on the page.-->
     <div class="container">
       <h1 class="text-center mt-5 display-2">Welcome to Sav Designs & Co.</h1>
       <hr>
+      <!-- ABOUT ME -->
+      <!-- This is the about me section. A high quality image of myself was added and I added to img-fluid tag (as well as some css adjustments) to ensure that it is responsive. The image shares half the page with the paragraph & headings. This is accomplished by using bootstrap grid. -->
       <div class="row" id="hi">
         <div class="mt-lg-5 mb-lg-5 col-lg-6">
           <img class="img-fluid mt-2" src="images/Savannah.jpg" id="savannah" alt="savannah" />
@@ -69,6 +77,7 @@
         <div class="mt-5 mb-lg-5 col-lg-6">
           <h2>Hi! I'm Savannah.
           </h2>
+          <!-- Giving paragraphs classes of fs-4 & 5 to style the sizes of them -->
           <p class="fs-4">I am a photographer & web designer.</p>
           <p class="fs-5">If you know me, you know that I love all things design. Web design, interior design, you
             name it!
@@ -82,6 +91,8 @@
         </div>
       </div>
       <hr>
+      <!-- SERVICES -->
+      <!-- This is the services section. I used bootstrap cards to contain the image and text that I wanted to display to keep the content looking clean.  -->
       <section id="services">
         <h2 class="display-5 text-center mb-5 mt-5">What Can I Do for You?</h2>
         <div class="row">
@@ -114,10 +125,15 @@
         </div>
       </section>
       <hr>
+      <!-- RECENT WORK -->
+      <!-- This is the recent work section where my portfolio will be displayed. I will utilize bootstrap grid in order to organize my work. Each section has an id that way it can be indetified and used as an achor from the navbar aswell. -->
+      <!-- WEB -->
+      <!-- This is the web section where my most recent web work is displayed. I chose to display my top 3 favourite pieces of web design from this year. I screen recorded the pages while scrolling on my iPad, turned them into a gif, placed them inside a browser template and uploaded them to the page. -->
       <section id="web">
         <h2 class="display-5 text-center mt-5">Recent Web Work</h2>
         <h3 class="text-center mb-5">Take a look at my most recent work for some inspiration.</h3>
         <div class="row">
+            <!-- Cards will display 1 per row on mobile and tablet, and 3 in a row on desktop. -->
           <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card">
               <img src="images/ava.gif" class="img-fluid card-img-top" alt="..." id="recent">
@@ -155,6 +171,8 @@
           </div>
         </div>
       </section>
+      <!-- BRANDING --> 
+      <!-- This is the branding section. I chose to display my most recent branding prototypes and logos using bootstrap grid display them in a grid. Each image will take up the entire viewport at mobile widths, half the viewport on tablet and 1/3 of the viewport on desktop (within the container). -->
       <section id="branding1">
         <hr class="mt-5">
         <h2 class="display-5 text-center mt-5">Recent Branding Work</h2>
@@ -180,12 +198,15 @@
           </div>
         </div>
       </section>
+      <!-- PHOTOGRAPHY -->
+      <!-- This is the photography section. Here I decided to integrate a carousel to display my most recent branding shoot (pre-lockdown). Users can easily flip through using the slider arrows. -->
       <section id="photography">
         <hr class="mt-5">
         <h2 class="display-5 text-center mt-5">Recent Photography Work</h2>
         <h3 class="text-center">Whether it be interior design, branding or headshots, my camera & I have got you
           covered.
         </h3>
+        <!-- Giving paragraphs classes of fs-5 to style the sizes of them -->
         <p class="text-center fs-5"> Take a look at my most recent interior design shoot for @ByFabiolaDesign.</p>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -214,11 +235,14 @@
           </button>
         </div>
       </section>
+      <!-- CONTACT -->
+      <!-- This is the contact section. I intergrated bootstraps (amazing) contact form and customized it myself. This included adding a text area, name field and styling the background/button later in css.-->
       <section id="contact">
         <hr class="mt-5">
         <h2 class="display-5 text-center mt-5">Like What You See?</h2>
         <h2 class="text-center">Let's Connect!</h2>
         <img class="img-fluid center-block" width="150" src="images/email.png" alt="email" id="email">
+        <!-- Giving paragraphs classes of fs-5 to style the sizes of them -->
         <p class="text-center fs-5"> Leave your name and e-mail below and specify the type of service that
           you would like to book. Don't leave out any details. Tell me all about your business goals and project
           ambitions!
@@ -245,6 +269,8 @@
         </form>
       </section>
     </div>
+    <!-- FOOTER -->
+    <!-- This is the footer section. I wanted to keep it very plain and simple. I achieved this by only adding my social media icons & copy right line. -->
     <footer>
       <div class="row">
         <div class="col">
