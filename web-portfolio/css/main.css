@@ -6,8 +6,8 @@ body {
     padding-left: 1em;
 }
 
-#banner {
-    width: 65%;
+.banner {
+    width: 100%;
     height: auto;
 }
 
