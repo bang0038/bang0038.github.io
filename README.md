@@ -55,7 +55,4 @@ ALL IMAGES/PHOTOGRAPHY ARE MY OWN EXCEPT FOR:
 4. FONTS: https://fonts.googleapis.com/css2?family=Belleza&display=swap
 
 
-MOCKUP LINK: https://xd.adobe.com/view/7afe055f-5056-4a24-aa79-84e4addded84-2fad/
-(Mock-up is also provided in the root file as .JPG & XD file.
-
 
